@@ -9,7 +9,7 @@ const routes = new Router();
 routes.post('/users', UsersController.create);
 routes.post('/sessions', SessionsController.create);
 
-routes.use(auth);
+//routes.use(auth);
 
 routes.get('/users', UsersController.index);
 routes.get('/users/:id', UsersController.show);
